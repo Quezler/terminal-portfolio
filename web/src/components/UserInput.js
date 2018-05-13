@@ -23,7 +23,7 @@ class UserInput extends Component {
           value: ''
         }
 
-        nextProps.updateTerminalContent(`${prefix} ${prevState.value}`, () => {
+        nextProps.updateTerminalContent(`<strong>${prefix}</strong> ${prevState.value}`, () => {
           nextProps.handleUserCommand(prevState.value)
         })
 
@@ -44,7 +44,7 @@ class UserInput extends Component {
   render() {
     return (
       <div className="user-input">
-        { prefix } { this.state.value }
+        <strong>{ prefix }</strong> { this.state.value }
       </div>
     )
   }
