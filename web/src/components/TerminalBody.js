@@ -109,6 +109,11 @@ class TerminalBody extends Component {
               </ul>
             </div>
           </div>
+          <br>
+          <p>
+            Although most of my more recent projects are not open source, I <em>do</em> have some publicly accessible code available on
+            <a href="https://www.github.com/alexdovzhanyn" target="_blank">GitHub</a>.
+          </p>
         `)
         break
       default:
